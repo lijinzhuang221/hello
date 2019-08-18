@@ -21,6 +21,7 @@ public class HelloWorldServlet extends HttpServlet{
 			String userid=(String)session.getAttribute("userid");
 			response.getWriter().append("Welcome back, "+userid+", this is "+port2+" port") ;
 		}
+		System.out.println("11111111111");
  
 	}
 }
